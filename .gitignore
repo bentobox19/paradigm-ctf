@@ -12,3 +12,6 @@ docs/
 
 # Dotenv file
 .env
+
+# Huff
+src/__TEMP__*
