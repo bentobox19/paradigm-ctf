@@ -1,66 +1,43 @@
-## Foundry
+## Paradigm
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Solutions to Challenges from Paradigm CTF.
 
-Foundry consists of:
+## Scope
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+* [2023 - Black Sheep](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/black-sheep/challenge/project)
 
-## Documentation
+## Writeups
 
-https://book.getfoundry.sh/
+* In code, at each test file.
 
-## Usage
+## How to Run
 
-### Build
+### Install forge
 
-```shell
-$ forge build
+* Follow the [instructions](https://book.getfoundry.sh/getting-started/installation.html) to install [Foundry](https://github.com/foundry-rs/foundry).
+
+### Install dependencies
+
+```bash
+forge install
 ```
 
-### Test
+### Run the entire test suit
 
-```shell
-$ forge test
+```bash
+forge test
 ```
 
-### Format
+### Running a single challenge
 
-```shell
-$ forge fmt
+```bash
+forge test --match-contract BlackSheep
 ```
 
-### Gas Snapshots
+#### Add traces
 
-```shell
-$ forge snapshot
-```
+There are different level of verbosities, `-vvvvv` is the maximum.
 
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+```bash
+forge test --match-contract BlackSheep -vvvvv
 ```
