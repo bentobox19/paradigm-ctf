@@ -13,9 +13,14 @@ fs_permissions = [{ access = 'read-write', path = '/'}]
 remappings = [
   "forge-std=lib/forge-std/src/",
   "foundry-huff=lib/foundry-huff/src/",
+  "@chainlink-2.6.0=lib/chainlink-2.6.0/",
+  "@clones-with-immutable-args=lib/clones-with-immutable-args/",
+  "@openzeppelin-4.9.2=lib/openzeppelin-contracts-4.9.2/"
 ]
 
 ignored_warnings_from = [
-  "src/black-sheep/ISimpleBank.sol",
-  "src/black-sheep/Challenge.sol"
+  "src/dai-plus-plus/Account.sol",
+  "src/dai-plus-plus/AccountManager.sol",
+  "src/dai-plus-plus/Stablecoin.sol",
+  "src/dai-plus-plus/SystemConfiguration.sol"
 ]
