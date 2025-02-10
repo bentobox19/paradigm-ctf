@@ -5,6 +5,7 @@ Solutions to Challenges from Paradigm CTF.
 ## Scope
 
 * [2023 - Black Sheep](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/black-sheep/challenge/project)
+* [2023 - Dai Plus Plus](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/dai-plus-plus/challenge/project)
 
 ## Writeups
 
