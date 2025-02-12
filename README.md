@@ -6,6 +6,7 @@ Solutions to Challenges from Paradigm CTF.
 
 * [2023 - Black Sheep](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/black-sheep/challenge/project)
 * [2023 - Dai Plus Plus](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/dai-plus-plus/challenge/project)
+* [2023 - Dodont](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/dodont/challenge)
 
 ## Writeups
 
@@ -23,7 +24,11 @@ Solutions to Challenges from Paradigm CTF.
 forge install
 ```
 
+
+
 ### Run the entire test suit
+
+Be advised that some tests will require you to fork the blockchain. See specific section in this README.
 
 ```bash
 forge test
@@ -41,4 +46,13 @@ There are different level of verbosities, `-vvvvv` is the maximum.
 
 ```bash
 forge test --match-contract BlackSheep -vvvvv
+```
+
+### Forking the blockchain (If needed)
+
+Create an `.env` file. You can copy the sample `.env-sample`. Modify values accordingly:
+
+```bash
+export MAINNET_FORKING_URL=https://eth-mainnet.g.alchemy.com/v2/v2/9yUn7YrS814EkZt2xI0Ex0VFHcPAUmRw
+export BLOCK_NUMBER=20000000
 ```
