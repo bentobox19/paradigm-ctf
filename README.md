@@ -6,7 +6,8 @@ Solutions to Challenges from Paradigm CTF.
 
 * [2023 - Black Sheep](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/black-sheep/challenge/project)
 * [2023 - Dai Plus Plus](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/dai-plus-plus/challenge/project)
-* [2023 - Dodont](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/dodont/challenge)
+* [2023 - Dodont](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/dodont/challenge/project)
+* [2023 - Dragon Tyrant](https://github.com/paradigmxyz/paradigm-ctf-2023/tree/main/dragon-tyrant/challenge/project)
 
 ## Writeups
 
@@ -23,8 +24,6 @@ Solutions to Challenges from Paradigm CTF.
 ```bash
 forge install
 ```
-
-
 
 ### Run the entire test suit
 

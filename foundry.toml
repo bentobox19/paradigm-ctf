@@ -15,7 +15,8 @@ remappings = [
   "foundry-huff=lib/foundry-huff/src/",
   "@chainlink-2.6.0=lib/chainlink-2.6.0/",
   "@clones-with-immutable-args=lib/clones-with-immutable-args/",
-  "@openzeppelin-4.9.2=lib/openzeppelin-contracts-4.9.2/"
+  "@openzeppelin-4.9.2=lib/openzeppelin-contracts-4.9.2/",
+  "@openzeppelin-upgradeable-4.9.2=lib/openzeppelin-upgradeable-4.9.2/contracts"
 ]
 
 ignored_warnings_from = [
