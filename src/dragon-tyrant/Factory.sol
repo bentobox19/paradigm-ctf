@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import "@openzeppelin-4.9.2/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "./OwnedUpgradeable.sol";
 import "./NFT.sol";
 import "./ItemShop.sol";
